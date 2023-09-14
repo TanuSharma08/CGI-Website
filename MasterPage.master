@@ -22,7 +22,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div class="contain1">
         <nav>
             <div><span class="hb" onclick="toggleNav()"><b>☰</b></span></div>
             <asp:Image ID="img1" runat="server" src="./images/cgi logo.png" alt="CGI Logo" CssClass="img" />

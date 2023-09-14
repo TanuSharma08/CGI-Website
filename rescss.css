@@ -1,11 +1,12 @@
 ﻿/* header */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
 
     body {
         font-family: "Nunito", sans-serif !important;
         margin: 0;
         padding: 0;
+        flex-direction: column;
     }
 
     img{
@@ -13,6 +14,10 @@
     margin-left: 30px;
     margin-bottom: 10px;
   }
+
+    .contain1 {
+        position: absolute;
+    }
 
   ul{
     display: none;
@@ -62,6 +67,7 @@
     .span {
         align-items: center;
         font-size: 15px;
+        margin: auto;
     }
 
     .sp {
@@ -187,7 +193,7 @@
     /* counter */
 
     .img-container {
-        margin: 25px 25px 30px 25px;
+        margin: auto;
     }
 
     .imgs {
@@ -201,120 +207,30 @@
 
     /* default */
 
-    .cont {
-        margin-left: 0px;
-        margin-right: 50px;
-    }
-
     .bg {
-        margin-top: 70px;
-        margin-bottom: 80px;
-        background: url(../images/slider-image.png);
-        background-size: cover;
-        height: 600px;
-        position: relative;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 
-        .bg:before {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(40, 23, 62, 0.62);
-            content: "";
-        }
-
-    .fl {
-        color: #EFA506;
-        font-size: 40px;
-        font-weight: 100;
-        padding: 150px 0px 40px 100px;
-        isolation: isolate;
-    }
-
-    .sl {
-        color: white;
-        font-size: 40px;
-        padding: 0px 0px 40px 100px;
-        isolation: isolate;
-    }
-
-    .clr {
-        background-color: #BF1E23;
-        padding: 15px;
-    }
-
-    .color {
-        color: #EFA506;
+    .fl, .sl {
+        font-size: 24px;
+        padding: 40px 20px;
     }
 
     .btn {
-        font-size: 18px;
-        padding: 10px 30px;
-        border-radius: 30px;
-        display: inline-block;
-        font-weight: bold;
-        color: #fff;
-        background: #BF1E23;
-        border: solid 1px #BF1E23;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        margin-left: 100px;
-        isolation: isolate;
+        margin-left: 0;
+        margin-top: 20px;
     }
 
-        .btn:hover {
-            color: #BF1E23;
-            background: #fff;
-            border: solid 1px #BF1E23;
-        }
-
+    .contain1 {
+        margin-left: 0px;
+    }
 
     /* container */
 
     .container {
-        border: 0px solid rgb(204, 204, 204);
-        margin: auto;
-        margin-right: 150px;
-        margin-top: 80px;
-        padding: 20px 50px 5px 30px;
-        width: 280px;
-        background: url(../images/form-bg.png);
-        background-size: cover;
-        isolation: isolate;
-    }
-
-    .text {
-        width: 240px;
-        padding: 18px;
-        margin: 5px 0;
-        border: none;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        outline: none;
-        background: rgba(255, 255, 255, 0.5);
-        margin: 12px;
-    }
-
-    .ddl {
-        width: 275px;
-        font-size: 15px;
-    }
-
-    .dl {
-        color: black;
-        font-size: 14px;
-    }
-
-    .sbtn {
-        margin: 15px 65px 20px 10px;
-        width: 280px;
-    }
-
-    .row {
-        display: flex;
-        justify-content: space-evenly;
+        display: none;
     }
 
     /* Who are we */

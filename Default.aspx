@@ -7,7 +7,7 @@
             <div class="bg">
             <div class="row">
 
-                <div class="contain1">
+                <div>
                 <div class="fl"><span>Do you want to learn?</span></div>
                 <div class="sl">Connecting for <span class="clr">CONTRIBUTING</span></div>
                 <div class="sl">Interacting for <span class="color">Innovating</span></div>
