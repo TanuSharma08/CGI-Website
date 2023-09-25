@@ -5,7 +5,7 @@
     body {
         font-family: "Nunito", sans-serif !important;
         margin: 0;
-        padding: 0
+        padding: 0;
     }
 
     * {
@@ -148,7 +148,7 @@
     .abt {
         display: flex;
         justify-content: space-between;
-        margin-right: 100px;
+        margin-right: 10px;
     }
 
     h2 {
@@ -157,11 +157,7 @@
     }
 
     p {
-        padding: 0px 30px 0px 0px;
-        color: #575757;
-        font-family: "Nunito", sans-serif !important;
-        line-height: 35px;
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .rbtn {
@@ -170,7 +166,7 @@
     }
 
     .content {
-        margin-left: 100px;
+        margin-left: 40px;
     }
 
     /* Why cgi */
@@ -188,6 +184,7 @@
     }
 
     .wwwimg {
+        width: 100px;
         text-align: center;
     }
 

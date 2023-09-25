@@ -67,7 +67,7 @@
                     <div>From seed funding to mentoring to growth hacking. CGI offers all services so you don’t lack behind when it’s the time to touch great heights. Our world wide corporate connections help you generate business leads for your startup.</div>
                 </div>
                 <div class="box1">
-                    <div class="wwwimg"><asp:Image ID="Image4" runat="server" src="/images/why-cgi-icon.png" alt="Why CGI Icon" /></div>
+                    <div class="wwwimg"><asp:Image ID="Image4" runat="server" src="/images/why-cgi-icon.png" alt="CGI Icon" /></div>
                     <div>Entrepreneurs, mentors or investors, CGI has a global approach to back you up. With our around the world network, we help you build your personal connections as well to grow your business.</div>
                 </div>
             </div>
